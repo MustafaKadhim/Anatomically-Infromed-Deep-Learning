@@ -14,7 +14,6 @@ class TransformerAttention3D(nn.Module):
         self.transformer_encoder = nn.TransformerEncoder(encoder_layer, num_layers=num_layers)
     
     def forward(self, x):
-        # x: shape [B, C, D, H, W]
         B, C, D, H, W = x.shape
         # Flatten spatial (and depth) dimensions: token length = D*H*W
         x_flat = x.view(B, C, D * H * W)  # shape [B, C, tokens]
