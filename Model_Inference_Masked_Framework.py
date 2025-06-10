@@ -1,4 +1,4 @@
-from HomeMade_Nets import*
+from Collection_of_models import*
 from Utilities import* 
 
 def Infer():    
