@@ -7,7 +7,7 @@ import numpy as np
 import torch.nn.functional as F
 from torchvision import models
 from torchvision.models import VGG19_Weights
-from monai.losses import PerceptualLoss
+from monai.losses import PerceptualLoss # Can also be used if the user wants too
 from skimage.metrics import structural_similarity as ssim
 from skimage.metrics import peak_signal_noise_ratio as psnr
 from skimage.util.arraycrop import crop
@@ -549,9 +549,9 @@ def plot_images_in_grid(images, list_of_fig_titles ,name):
                     plt.close(fig)
                     gc.collect()
 
-#--------------------------------------------------------------------------------------------------------------------------                                        
-#---------------------------------------- Masked Metrics Functions ---------------------------------------------------------
-#--------------------------------------------------------------------------------------------------------------------------                                        
+#-------------------------------------------------------------------------------------------------------------------------                                        
+#---------------------------------------- Masked Metrics Functions Based on the SynthRAD2023 Framework -------------------
+#-------------------------------------------------------------------------------------------------------------------------                                        
 
 def Masked_MAE(predicted, target, mask):
     mask = np.where(mask > 0, 1, 0)
