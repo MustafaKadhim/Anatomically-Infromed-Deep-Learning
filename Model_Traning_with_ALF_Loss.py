@@ -9,7 +9,7 @@ from monai.utils import set_determinism
 import matplotlib
 matplotlib.use('Agg')
 from Utilities import * 
-from HomeMade_Nets import *
+from Collection_of_models import *
 import torch.optim as optim
 import torch.nn as nn
 import numpy as np
