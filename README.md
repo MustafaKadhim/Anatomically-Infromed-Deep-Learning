@@ -1,4 +1,4 @@
-# Anatomically Informed Deep Learning for Rapid Volumetric CBCT Synthesis
+# Anatomically informed deep learning framework for generation of fast, low-dose synthetic CBCT for prostate radiotherapy
 
 This is an open-source PyTorch and MONAI implementation of a dual-branch Fusion-Skip-Res model that synthesizes 3D cone-beam CT (sCBCT) volumes from ultra-sparse 2D DRR projections and planning CTs. 
 By integrating skip & residual connections and a custom anatomically informed loss function (ALF) focused on PTV, bladder, and rectum, our model reconstructs high-fidelity volumetric images for anatomy verification in prostate cancer radiotherapy.  
