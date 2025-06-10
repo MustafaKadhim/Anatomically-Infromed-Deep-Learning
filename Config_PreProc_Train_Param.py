@@ -22,3 +22,5 @@ CONFIG_Model_Training = {
     "omega":  0.04,  #[1, 0.5, 0.1, 0.05, 0.01, 0] Good = 0.04
     "CUDA": "cuda:1"
 }
+
+# feel free to add your own parameters here too :D 
