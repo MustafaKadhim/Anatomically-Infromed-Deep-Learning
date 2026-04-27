@@ -31,7 +31,7 @@
 
 <p align="center">
   <a href="https://www.nature.com/articles/s41598-025-23781-7">
-    <img src="assets/framework_overview.png" width="850" alt="Overview of the proposed framework">
+    <img src="Assets/anotomicall_informed_overview.png" width="600" alt="Overview of the proposed framework">
   </a>
 </p>
 
