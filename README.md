@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="assets/logo.png" width="180" alt="Anatomically informed deep learning logo">
+  <img src="Assets/Antomicall_informed_noBg.png" width="300" alt="Anatomically informed deep learning logo">
 </p>
 
-<h1 align="center">
+<h1 align="left">
   Anatomically Informed Deep Learning for Fast, Low-Dose Synthetic CBCT
 </h1>
 
@@ -12,7 +12,7 @@
 
 <p align="center">
   <a href="https://www.nature.com/articles/s41598-025-23781-7">
-    <img src="https://img.shields.io/badge/Paper-Scientific%20Reports-blue" alt="Scientific Reports paper">
+    <img src="https://img.shields.io/badge/Paper-Nature%20Scientific%20Reports-blue" alt="Nature Scientific Reports paper">
   </a>
   <img src="https://img.shields.io/badge/Framework-PyTorch%20%7C%20MONAI-orange" alt="PyTorch and MONAI">
   <img src="https://img.shields.io/badge/Task-2D--to--3D%20sCBCT-green" alt="2D to 3D sCBCT">
@@ -23,8 +23,6 @@
   <a href="https://www.nature.com/articles/s41598-025-23781-7"><strong>Read the paper</strong></a>
   ·
   <a href="#overview"><strong>Overview</strong></a>
-  ·
-  <a href="#installation"><strong>Installation</strong></a>
   ·
   <a href="#citation"><strong>Citation</strong></a>
 </p>
@@ -41,10 +39,7 @@
 
 ## Overview
 
-This repository provides the open-source implementation of the **Fusion-Skip-Res** deep learning framework presented in:
-
-> **Anatomically informed deep learning framework for generating fast, low-dose synthetic CBCT for prostate radiotherapy**  
-> Mustafa Kadhim et al., *Scientific Reports*, 2025.
+This repository provides the open-source implementation of the **Fusion-Skip-Res** deep learning framework. 
 
 The framework generates volumetric **synthetic cone-beam CT (sCBCT)** images from:
 
@@ -52,6 +47,10 @@ The framework generates volumetric **synthetic cone-beam CT (sCBCT)** images fro
 - a reference 3D planning CT (pCT).
 
 The goal is to explore whether fast, low-dose 2D imaging can be used to recover 3D anatomical information for image-guided prostate radiotherapy.
+
+
+## Citation
+>*Kadhim, M., Persson, E., Haraldsson, A. et al. Anatomically informed deep learning framework for generating fast, low-dose synthetic CBCT for prostate radiotherapy. Sci Rep 15, 36106 (2025). https://doi.org/10.1038/s41598-025-23781-7*
 
 ---
 
