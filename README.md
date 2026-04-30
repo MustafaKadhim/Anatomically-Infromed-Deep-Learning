@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="Assets/Antomicall_informed_noBg.png" width="350" alt="Anatomically informed deep learning logo">
+  <img src="Assets/Antomicall_informed_noBg.png" width="400" alt="Anatomically informed deep learning logo">
 </p>
 
-<h1 align="center">
+<h1 align="left">
   Anatomically Informed Deep Learning for Fast, Low-Dose Synthetic CBCT
 </h1>
 
